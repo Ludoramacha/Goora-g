@@ -4,19 +4,74 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>THE RAMZIES!</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+  header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+  }
+  nav {
+    margin: 20px;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  nav ul li {
+    display: inline-block;
+    position: relative;
+  }
+  nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    color: #333;
+  }
+  nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f8f9fa;
+    padding: 0;
+    list-style-type: none;
+  }
+  nav ul li:hover ul {
+    display: block;
+  }
+  nav ul li ul li {
+    display: block;
+  }
+</style>
 </head>
 <body>
 <header>
-<h1>THE RAMZIES!</h1>
+  <h1>THE RAMZIES!</h1>
 </header>
+<nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a>
+      <ul>
+        <li><a href="#">Interests & Hobbies</a></li>
+        <li><a href="#">Childhood Background</a></li>
+        <li><a href="#">Family</a></li>
+        <li><a href="#">Contacts</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 <main>
-<h2>WELCOME TO MY HUMBLE ABODE!<h2/>
-<p>DUMILANI BAKANYI KWEDU!This is a website about my self and family.
-<p>meet the gang!</p>
-<img src="https://www.shutterstock.com/image-photo/healthy-black-family-children-parent-600w-2161021289.jpg" alt="A cute kitten">
+  <h2>WELCOME TO MY HUMBLE ABODE!</h2>
+  <p>DUMILANI BAKANYI KWEDU! This is a website about myself and family.</p>
+  <p>Meet the gang!</p>
+  <img src="https://www.shutterstock.com/image-photo/healthy-black-family-children-parent-600w-2161021289.jpg" alt="A cute kitten">
 </main>
 <footer>
-<p> LIVE,LAUGH AND LOVE</p>
+  <p>LIVE, LAUGH AND LOVE</p>
 </footer>
 </body>
 </html>

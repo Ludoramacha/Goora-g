@@ -1,1 +1,33 @@
-
+body {
+    font-family: Arial, sans-serif;
+  }
+  header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+  }
+  nav {
+    margin: 20px;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  nav ul li {
+    display: inline;
+  }
+  nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    color: #333;
+  }
+  .centered-image{
+      display:block;
+      margin:auto
+  }
+</style>
+</head>
+<body>

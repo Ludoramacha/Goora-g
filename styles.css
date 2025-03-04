@@ -54,11 +54,4 @@ footer {
     background-color: white;
     color: black;
   }
-  .social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-  }
-  social-icons img {
-    width: 20px;
-    height: 20px;
+ 

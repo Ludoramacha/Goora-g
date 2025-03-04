@@ -48,16 +48,15 @@ main {
   margin: 20px;
 }
 footer {
-  text-align: center;
-  padding: 10px; 
-  background-color: white;
-  color: white;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}
-
-.centered-image {
-  display: block;
-  margin: auto;
-}
+    text-align: center;
+    padding: 2.5px;
+    font-size: 12px;
+    background-color: white;
+    color: black;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  

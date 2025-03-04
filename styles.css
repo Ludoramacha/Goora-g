@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  background-color: #f8f9fa;
+  background-color: #6495ED;
   padding: 20px;
   text-align: center;
   border-bottom: 2px solid #333;
@@ -25,7 +25,7 @@ nav {
   padding: 0;
   display: flex;
   justify-content: center;
-  background-color: #6495ED;
+  background-color: #white;
   border-top: 2px solid #333;
 }
 

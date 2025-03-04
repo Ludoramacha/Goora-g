@@ -40,10 +40,6 @@ nav {
   display: block;
 }
 
-.navbar li a:hover {
-  background-color: #f8f9fa;
-}
-
 main {
   margin: 20px;
 }

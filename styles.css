@@ -4,6 +4,8 @@ body {
   padding: 0;
   background: linear-gradient(to bottom, #d1eaf5, #ffd1a4); 
   color: #333;
+  display:flex;
+  flex-direction:column;
 }
 
 header {
@@ -50,6 +52,7 @@ nav {
 main {
   text-align: center;
   padding: 20px;
+  flex:1;
 }
 
 main h2 {

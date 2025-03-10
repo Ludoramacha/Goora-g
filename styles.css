@@ -80,10 +80,10 @@ footer {
 
 .centered-image {
   display: block;
-  margin: auto;
+  max-width:500px
   border: 5px solid #4a90e2; 
   border-radius: 10px;
-  width:50%
+  width:100%
 }
 
 {
